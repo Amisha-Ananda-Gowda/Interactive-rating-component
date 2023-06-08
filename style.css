@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+--white: hsl(0, 0%, 100%);
+--lightGrey: hsl(217, 12%, 63%);
+--mediumGrey: hsl(216, 12%, 54%);
+--darkBlue: hsl(213, 19%, 18%);
+--veryDarkBlue: hsl(216, 12%, 8%);
+--orange: hsl(25, 97%, 53%);
+font-family: "Overpass","sans-serif";
+/*The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px*/
+
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+#heading{
+    font-weight: 700;
+    color:var(--white);
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:0px;
+   
+}
+body{
+    background-color:var(--veryDarkBlue);
+    color:var(--lightGrey);
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+   padding-top: 14vh;
+    padding-bottom: 14vh;
+  
+}
+input.submit{
+    color:var(--white);
+    background-color:var(--orange) ;
+    border-radius: 30px;
+    border:none;
+    width:100%;
+    height:40px ;
+}
+
+input.submit:focus{
+    color:var(--orange);
+    background-color:var(--white) ;
+    border-radius: 30px;
+    border:none;
+    width:100%;
+    height:40px ;
+}
+
+a{
+    color:var(--white);
+    text-align:center;
+    font-size: 11px;
+}
+div.attribution{
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    position:fixed;
+    padding-bottom: 2px;
+    bottom: 0;
+   
+}
+
+section.pop-up{
+    background-color:hsla(213, 20%, 18%, 0.76);
+  width:300px;
+  height:fit-content;
+    border-radius: 20px;
+    padding:20px;
+margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+input.circle{
+    background-color: hsla(216, 12%, 54%, 0.132);
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+    color: hsl(217, 12%, 63%);
+   
+}
+input.star{
+    background-color: hsla(216, 12%, 54%, 0.123);
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    object-fit:scale-down;
+    
+   
+}
+input.circle:hover{
+    background-color: var(--lightGrey);
+    color: var(--white);
+}
+input.circle:focus{
+    color: var(--white);
+    background-color: var(--orange);
+}
+#image{
+    opacity: 100%;
+
+}
+section.rating{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+#thanks{
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+#selection{
+    background-color: hsla(216, 12%, 54%, 0.146);
+    color:var(--orange);
+    font-size:15px ;
+    height:25px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+   width:fit-content;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left:auto;
+   margin-right: auto;
+   
+  
+}
+section.message{
+    margin-top: 10px;
+    margin-bottom:px;
+}
