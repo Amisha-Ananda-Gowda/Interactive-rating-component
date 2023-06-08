@@ -48,7 +48,7 @@ input.submit{
     height:40px ;
 }
 
-input.submit:focus{
+input.submit:hover{
     color:var(--orange);
     background-color:var(--white) ;
     border-radius: 30px;
